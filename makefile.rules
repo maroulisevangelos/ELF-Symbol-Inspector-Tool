@@ -1,0 +1,30 @@
+#######################################################
+#The code built base on the code from lecture 6.
+#
+#
+###################Preliminaries#######################
+#	$ yum list installed | grep libelf
+#
+#
+#	elfutils-libelf.x86_64 0.185-1.el8 @baseos 
+#	elfutils-libelf-devel.x86_64 0.185-1.el8 @baseos 
+#
+#
+###################Requirements#######################
+#   $ yum list installed | grep binutils
+#
+#
+#   binutils.x86_64 2.30-108.el8_5.1 @baseos 
+#   binutils-devel.x86_64 2.30-108.el8_5.1 @appstream
+#
+#
+###################Compile############################
+#
+#Save the file using the name inspector.c and compile it:
+#   $ gcc -Wall inspector.c -lelf -o inspector
+#
+###################Run################################
+#
+# ./example is a binary stripped or not stripped
+#
+# ./inspector ./example
