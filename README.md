@@ -11,7 +11,7 @@ Features:
 
 Implementation Details:
 
-    Developed in C/C++ using libbfd or libelf for symbol manipulation.
+    Developed in C using libbfd or libelf for symbol manipulation.
     
     The tool opens an ELF executable binary to extract and display symbol information.
     
